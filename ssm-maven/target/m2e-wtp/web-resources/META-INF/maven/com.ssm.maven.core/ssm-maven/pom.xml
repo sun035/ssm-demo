@@ -107,6 +107,17 @@
         </dependency>
         <!-- End: aspectj相关jar包-->
 
+		
+		<!-- https://mvnrepository.com/artifact/org.freemarker/freemarker -->
+		<dependency>
+		    <groupId>org.freemarker</groupId>
+		    <artifactId>freemarker</artifactId>
+		    <version>2.3.20</version>
+		</dependency>
+
+
+
+
         <!-- Begin: spring依赖 -->
         <dependency>
             <groupId>org.springframework</groupId>
