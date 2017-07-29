@@ -5,7 +5,7 @@
     1. configIp:"http://localhost:8080"  //后台端口主地址
 		2. databases:"wblog"//数据库的名称
     
-第二步。。没了 直接访问  http://localhost:8080/ssm-maven/views/sjkListMenu.html
+第二步。。没了 直接访问  http://localhost:8080/ssm-maven/views/sjkListMenu.html  。。点击左边列的数据库表名 然后回车查询
 
 前端使用了bootstrap样式 分页插件
 后端spring mybatis mysql  
