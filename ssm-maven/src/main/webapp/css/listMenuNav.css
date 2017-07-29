@@ -1,0 +1,26 @@
+.nav_showList{
+    display:none;
+    z-index:10;
+    background:#2c6975;
+    min-width:1024px;
+    height:70px;
+}
+.nav_showList ul li{
+    float:left;
+    height:62px;
+    padding-top:8px;
+}
+.nav_showList ul li a{
+    display:block;
+    color:#fff;
+    width:100%;
+    height:54px;
+    text-align:center;
+    line-height:54px;
+    font-size:16px;
+    border-right:1px solid rgb(128, 166, 173);
+    cursor: pointer;
+}
+.nav_showList #aa70{
+    border:none;
+}

@@ -1,0 +1,46 @@
+.contents{
+    width:90%;
+    margin:0 auto;
+}
+.contents label{
+    margin-left:20%;
+    display:inline-block;
+    width:15%;
+    font-size:14px;
+    /*margin-top:15px;*/
+}
+.contents select{
+     display:inline-block;
+     width:40%;
+     /*margin-top:15px;*/
+ }
+.contents input{
+    display:inline-block;
+    width:40%;
+    /*margin-top:15px;*/
+    height: 35px !important;
+}
+
+.layui-layer-title{
+    background: #0E9D9E!important;
+    color:#fff!important;
+}
+
+
+.detailShow1{
+    width:90%;
+    margin:0 auto;
+}
+.detailShow1 label{
+    margin-left:20%;
+    display:inline-block;
+    width:15%;
+    font-size:14px;
+    margin-top:15px;
+}
+.detailShow1 input{
+    display:inline-block;
+    width:40%;
+    margin-top:15px;
+    height: 35px !important;
+}

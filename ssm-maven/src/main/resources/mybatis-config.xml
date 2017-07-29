@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 别名 -->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+    <typeAliases>
+        <typeAlias type="com.ssm.maven.core.entity.UserTabComments" alias="userTabComments" />
+         <typeAlias type="com.ssm.maven.core.entity.UserColComments" alias="userColComments" />
+          <typeAlias type="com.ssm.maven.core.entity.DeleteDateBean" alias="deleteDateBean" />
+    </typeAliases>
+</configuration>

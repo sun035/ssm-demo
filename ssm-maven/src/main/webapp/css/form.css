@@ -1,0 +1,70 @@
+
+#formToUpdate{
+    width:95%;
+    margin:0 auto;
+    height:50px;
+    background: #fff;
+}
+#formToUpdate *{
+    font-size:16px;
+    margin-top:30px;
+    margin-left:10px;
+}
+.stickMenu{
+    width:100%;
+    height:40px;
+}
+.stickMenu li{
+    color:#fdd;
+    float:left;
+    margin-left:10px;
+    text-decoration: underline;
+    cursor:pointer;
+}
+.containerMenu{
+    display: block;
+    position: absolute;
+    left:2.5%;
+    width:95%;
+    top:30px;
+    /*margin:0 auto;*/
+    /*margin:0px 35px\9;*/
+    border:1px solid #ccc;
+    box-shadow: 0 0 2px #333;
+    background: #fff;
+
+}
+#towerMenu{
+    margin-left:2.5%;
+    width:250px;
+    height:30px;
+    line-height:30px;
+    font-size:16px;
+}
+#towerMenu option{
+    font-size:16px;
+}
+.fileUpload{
+    width:200px;
+}
+
+#formToUpdate{
+    width:95%;
+}
+#formToUpdate *{
+    font-size:16px;
+    margin-left:10px;
+    margin-top:10px;
+}
+.content td a{
+    text-decoration: none;
+    color: #263eff;
+    cursor:pointer;
+}
+.content td a:hover{
+  /*  text-decoration: underline;
+    color:#0000aa;*/
+}
+.tb_head th{
+    text-align:center;
+}

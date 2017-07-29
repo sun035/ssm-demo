@@ -1,0 +1,234 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#cd0200;text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word;}
+body,html{
+    width:100%;
+    height:100%;
+}
+/*-------------------------------------------------header头部----------------------------------------------------*/
+.header{
+    position: relative;
+    height:45px;
+    min-width:1024px;
+    background: #34495e;
+    border-bottom:1px solid rgb(128, 166, 173);;
+}
+.header .logo{
+    position: absolute;
+    display:inline-block;
+    width:212px;
+    height:40px;
+    left:30px;
+    top:10px;
+}
+.header .logo span{
+    display:inline-block;
+    width:400px;
+    height:40px;
+    font-size:25px;
+    font-weight: 600;
+    line-height:21px;
+    color:#fff;
+}
+.header .logo img{
+    width:100%;
+    height:100%;
+}
+.con1{
+    display:inline-block;
+    margin-right:20px;
+    font-size:14px;
+}
+.con2 #cancel{
+    display:inline-block;
+    width:40px;
+    height:25px;
+    border:1px solid #fff;
+    color:#fff;
+    text-align:center;
+    line-height:25px;
+    margin-right:10px;
+}
+.con2{
+    display:inline-block;
+    float:right;
+    margin-right:20px;
+    margin-top:15px;
+}
+.con2 .nav_show{
+    display:inline-block;
+    color:#fff;
+}
+li,ul,ol{
+    list-style: none;
+}
+.logo img{
+    display:block;
+    width:300px;
+    height:90px;
+    float:left;
+    border:none;
+}
+.right{
+    float:right;
+    margin-right:50px;
+}
+.right span{
+    color:#fff;
+    font-size:16px;
+}
+.right_big{
+    padding-top:20px;
+}
+.right input{
+    float:right;
+    margin-top:10px;
+}
+
+/*-------------------------------------------container-------------------------------------------------*/
+.container{
+    background:url(../images/bodybg.jpg) no-repeat;
+    /*height:100%;*/
+    width:100%;
+    min-width:1024px;
+    background-size:100% 100%;
+}
+.nav{
+    width:100%;
+    height:100px;
+    position: relative;
+    padding-top:20px;
+}
+.nav_list{
+    position: absolute;
+    left:5%;
+    width:90%;
+    height:100px;
+    overflow: hidden;
+}
+.nav_list ul{
+    position: absolute;
+    left:0;top:0;
+    height:120px;
+}
+.nav_list li{
+    height:100px;
+    box-sizing: border-box;
+    float:left;
+    background: #fdfefe;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 3px #222;
+    margin-right:10px;
+}
+.nav_list li a{
+    font-size:17px;
+    display:block;
+    width:100%;
+    height:90px;
+    color:#222;
+    text-align:center;
+    line-height:60px;
+    cursor:pointer;
+    padding-top:10px;
+}
+#picture{
+    width:30px;
+    height:30px;
+    display:block;
+    margin:0 auto;
+    /*margin-top:10px;*/
+}
+.nav_list li:hover{
+
+    background: #19a6a1;
+
+}
+.nav_list li:hover a{
+    text-decoration: none;  color:#fff;
+}
+.nav span{
+    display: block;
+    width:30px;
+    height:120px;
+    position: absolute;
+    text-align:center;
+    line-height:120px;
+    color:#fff;
+    font-size:30px;
+    cursor: pointer;
+}
+/*-------------box表格-------------*/
+.box{
+    width:90%;
+    height:70%;
+    margin:0 auto;
+    /*border-radius: 10px;*/
+    background: #fff;
+    margin-top:25px;
+}
+.box table{
+    width:95%;
+    margin:0 auto;
+    border:1px solid #eaeaea;
+}
+.box .thead_td{
+    background:#d5e7e6;
+}
+.box .thead_td td{
+    font-size:16px;
+    color:#2c4342;
+}
+.box .blue{
+    color: #0c43ff;
+    cursor: pointer;
+}
+.box table td{
+    height:40px;
+    width:25%;
+    font-size:14px;
+    color:#333;
+    text-align:center;
+    line-height:30px;
+}
+.box h3{
+    height:55px;
+    width:95%;
+    margin:0 auto;
+    border-bottom:1px solid #eaeaea;
+    line-height:55px;
+    font-size:18px;
+    color:#333;
+    margin-bottom:20px;
+}
+
+/***********************遮罩层*****************************/
+.downLoad{
+    position: absolute;
+    width:100%;
+    height:100%;
+    color:#fff;
+    opacity: 1;
+    text-align:center;
+    line-height:900px;
+    background-color:#444;
+    background-image: url(../images/loading_32.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 99999;
+}
+
+table td{
+    border:1px solid #eaeaea;
+    white-space: nowrap;
+}
+.selectAll{
+    width:50px;
+    height:30px;
+    line-height:30px;
+}

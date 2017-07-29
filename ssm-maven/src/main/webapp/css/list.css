@@ -1,0 +1,113 @@
+
+table{
+    width:100%;
+    margin:0 auto;
+    font-size:12px;
+    border: 1px solid #CAD3DA;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table thead{
+    border: 1px solid #CAD3DA;
+    background: #d5e7e6;
+}
+table thead th{
+    height:20px;
+    padding: 10px 5px;
+}
+table tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+table tr td{
+    white-space: inherit;
+    border: 1px solid #CAD3DA;
+    color:#333;
+    min-height:30px;
+    height:45px;
+    text-align: center;
+}
+.title{
+    margin-left:10px;
+    height:40px;
+}
+.title h1{
+    background: #2b8182;
+    color: #fff;
+    font-size: 12px;
+    height:40px;
+    line-height:40px;
+    width:200px;
+}
+.conten{
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    background:#fff;
+}
+.conten h2{
+    margin:0 auto;
+    padding-top:30px;
+    border-bottom:1px solid #ccc;
+    height:40px;
+    line-height:40px;
+    width:90%;
+    font-size:16px;
+}
+.list{
+    width:80%;
+    margin:15px auto;
+}
+.list ul{
+    border-bottom:1px solid #ccc;
+    height:50px;
+    padding:0;
+}
+.list ul li{
+    float: left;
+    display:inline-block;
+    list-style: none;
+    width:9.5%;
+    height:40px;
+    margin-left:1%;
+    line-height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.list ul li.one{
+    background:#2b8182;
+    color: #fff;
+}
+.main{
+    margin-top:20px;
+    width:100%;
+}
+.main div{
+    width:100%;
+    float: left;
+    display: none;
+}
+.main div p{
+    height:25px;
+    line-height: 25px;
+}
+.M-box3{
+    position:absolute;
+    right:-30%;
+}
+.M-box3 .active{
+    background:#0E9D9E!important;
+    border: 1px solid #0E9D9E!important;
+}
+.M-box3 a:hover{
+    background:#0E9D9E!important;
+    border: 1px solid #0E9D9E!important;
+}
+.M-box3 a{
+    border: 1px solid #eaeaea !important;
+    color:#666!important;
+}

@@ -1,0 +1,269 @@
+
+.cont_main{
+    width:90%;
+    margin:0 auto;
+}
+.cont_main h2{
+    width:100%;
+    height:70px;
+    line-height:70px;
+    font-size:30px;
+    border-bottom: 1px solid #666;
+    text-align: left;
+}
+.lis {
+    width:95%;
+    margin:20px auto;
+    height:50px;
+}
+.lis li{
+    width:13%;
+    height:40px;
+    line-height:40px;
+    font-size:12px;
+    text-align: center;
+    margin-left:3%;
+    float: left;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.lis li.one{
+    background: #2D9592;
+    color:#fff;
+}
+.form_div ul{
+    width:95%;
+    margin:20px auto;
+    height:180px;
+}
+.form_div ul li{
+    width:20%;
+    height:70px;
+    line-height:40px;
+    font-size:12px;
+    text-align: center;
+    margin-left:3%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+}
+.form_div,.form_div2,.form_div3,.form_div4,.form_div5,.form_div6{
+    overflow-y: scroll;
+    width:100%;
+    height:500px;
+}
+.historyBnt{
+    background-color: #2D9592;
+    width: 100px;
+    border-radius: 3px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+    border: none;
+    display: inline-block;
+    margin-left:80%
+}
+.tit span{
+    height:40px;
+    font-size:20px;
+    display: inline-block;
+    width:60%;
+}
+.tit button{
+    display: inline-block;
+}
+.main label{
+    display: inline-block;
+    text-align: right;
+    margin:20px 10px 0 5%;
+    font-size:12px;
+    font-weight: normal;
+    height:25px;
+}
+.main select{
+    margin-bottom: 5px;
+    display:inline-block;
+    width:30%;
+
+}
+.tit{
+    width:100%;
+    height:40px;
+    border-bottom: 1px solid #666;
+}
+.main{
+    width:95%;
+    background: #fff;
+    height:500px;
+    overflow: hidden;
+}
+.main div{
+    width:100%;
+    float: left;
+    display: none;
+}
+.tit_div{
+    width:95%;
+    margin:0 auto;
+}
+.main input{
+    font-weight: normal;
+    display: inline-block;
+    width:30%;
+}
+.formToUpdate{
+    height:270px;
+    display: none;
+}
+.formToUpdate p{
+    display: inline-block;
+    width:10%;
+    color:red;
+    margin-left:5px;
+}
+#tit_div{
+    width:100%;
+    height:500px;
+}
+.main h3{
+    height:30px;
+    line-height:30px;
+    margin-top:10px;
+    margin-left:5%;
+    font-size: 14px;
+    font-weight: 700;
+    width:35%;
+    display: inline-block;
+}
+.main textarea{
+    width:30%;
+    height:50px;
+    display: inline-block;
+    margin-top:10px;
+}
+.textCan{
+    width:60px;
+    height:30px;
+    margin-left:20%;
+    display: inline-block;
+    background: #e0e0e0;
+    border-radius: 3px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.ajaxSubmit{
+    width:60px;
+    height:30px;
+    margin-left:80%;
+    display: inline-block;
+}
+p button{
+    display: inline-block;
+}
+.content_div{
+    position: relative;
+}
+.detailShow{
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:2.5%;
+    display: none;
+}
+.detailShow table{
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: auto;
+}
+.handle a{
+    margin: 0 5px;
+    cursor: pointer;
+    color: blue;
+}
+.detailShow2{
+    width: 95%;
+    margin: 0 auto;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 2.5%;
+    display: none;
+    overflow: auto;
+    z-index:3;
+}
+.more{
+    width:20%;
+    display:inline-block;
+    margin-left:5%;
+    font-size:20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.wrapper{
+    width: 50%;
+    margin: 0 auto;
+    background: #fff;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:2.5%;
+}
+#ul li img{
+    width:600px;
+    height:400px;
+}
+#uls li img{
+    width:50px;
+    height:50px;
+}
+.pic{
+    color:#0000aa;
+}
+/*缩略图css*/
+.boxPic{
+    background:#fff;
+    border:1px solid #ccc;
+    width:522px;
+    height:400px;
+    z-index:999;
+    display:none;
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.leftPic{
+    border:1px solid #ccc;
+    width:400px;
+    height:400px;
+    float:left;
+    display:inline-block;
+}
+.rightPic{
+    border:1px solid #ccc;
+    width:120px;
+    height:400px;
+    float:left;
+    display:inline-block;
+    overflow-y: auto;
+}
+.rightPic img{
+    width:100px;
+    height:100px;
+    display:inline-block;
+}
+.leftPic img{
+    width:400px;
+    height:400px;
+}

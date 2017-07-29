@@ -1,0 +1,103 @@
+
+/*------------------------------------------------layer弹出层--------------------------------------*/
+.layer_big{
+    width:260px;
+    height:150px;
+    background:#fff;
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-top:-75px;
+    margin-left:-130px;
+    box-shadow: 0 0 3px #333;
+}
+.layer_big1{
+    height:43px;
+    border-bottom:1px solid #eee;
+    font-size:14px;
+}
+.layer_big1 a{
+    display:inline-block;
+    width:70px;
+    float:left;
+    height:43px;
+    line-height:43px;
+    margin-left:20px;
+}
+.layer_big1 span{
+    text-align:center;
+    cursor: pointer;
+    display:block;
+    width:20px;
+    float:right;
+    font-weight:600;
+    height:43px;
+    line-height:43px;
+}
+.layer_big2 p{
+    height:44px;
+    width:230px;
+    font-size:15px;
+    padding-left:30px;
+    padding-top:20px;
+}
+.layer_big2 .sure{
+    display:block;
+    height:28px;
+    width:56px;
+    background:#2e8ded;
+    color:#fff;
+    border-color: #4898d5;
+    border-radius: 2px;
+    line-height:28px;
+    text-align:center;
+    margin-left:190px;
+    cursor:pointer;
+    text-decoration: none;
+}
+.layer_big2 a:hover{
+    background: #75b6f2;
+}
+
+.layer_big2 .save{
+    display:inline-block;
+    height:28px;
+    width:56px;
+    background:#2e8ded;
+    color:#fff;
+    border-color: #4898d5;
+    border-radius: 2px;
+    line-height:28px;
+    text-align:center;
+    margin-left:20px;
+    cursor:pointer;
+    text-decoration: none;
+}
+.layer_big2 .saveSuccess{
+    display:inline-block;
+    height:28px;
+    width:56px;
+    background:#2e8ded;
+    color:#fff;
+    border-color: #4898d5;
+    border-radius: 2px;
+    line-height:28px;
+    text-align:center;
+    margin-left:110px;
+    cursor:pointer;
+    text-decoration: none;
+}
+.layer_big2 .cancel{
+    display:inline-block;
+    height:28px;
+    width:56px;
+    background:#2e8ded;
+    color:#fff;
+    border-color: #4898d5;
+    border-radius: 2px;
+    line-height:28px;
+    text-align:center;
+    margin-left:110px;
+    cursor:pointer;
+    text-decoration: none;
+}

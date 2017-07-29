@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.ssm.maven.core.dao.SqlDao">
+ 
+     <resultMap type="userTabComments" id="userTab">
+        <result property="tableName" column="TABLE_NAME"/>
+        <result property="tableComment" column="TABLE_COMMENT"/>
+    </resultMap> 
+    
+    <resultMap type="userColComments" id="userTabCol">
+        <result property="columnName" column="COLUMN_NAME"/>
+        <result property="dataType" column="DATA_TYPE"/>
+        <result property="columnComment" column="COLUMN_COMMENT"/>
+    </resultMap> 
+     <!-- <resultMap type="deleteDateBean" id="deleteDate">
+        <result property="columnName" column="COLUMN_NAME"/>
+        <result property="dataType" column="DATA_TYPE"/>
+        <result property="columnComment" column="COLUMN_COMMENT"/>
+    </resultMap>  -->
+    
+    
+      <!-- 查询数据库 -->
+      <!-- 
+     <select id="queryDataBases" parameterType="map" resultType="String"   statementType="STATEMENT">
+       		SELECT ${schema_name} FROM INFORMATION_SCHEMA.SCHEMATA
+     </select>
+     -->
+     <!-- 查询所有表 -->
+     <select id="queryTableName" parameterType="String"  resultMap="userTab">
+       SELECT TABLE_NAME ,TABLE_COMMENT  FROM 
+       INFORMATION_SCHEMA.TABLES 
+       WHERE TABLE_SCHEMA = #{dbName}
+     </select>
+     
+     <!-- 查询表字段及表字段注释-->
+     <select id="queryTableField" parameterType="map" resultMap="userTabCol" >
+       Select COLUMN_NAME,DATA_TYPE, COLUMN_COMMENT
+	   from INFORMATION_SCHEMA.COLUMNS
+	   Where table_name = #{tbName}
+	   AND table_schema = #{dbName}
+     </select> 
+     
+    <!-- 查询表内容 -->
+	  <select id="queryTableInfo" parameterType="map" resultType="map" statementType="STATEMENT">
+        select * from ${tbName} LIMIT ${start},${end}
+    </select> 
+    
+     <!-- 查询表数据数量 -->
+    <select id="getTotal" parameterType="String" resultType="Long" statementType="STATEMENT">
+        select count(*) from ${_parameter} 
+    </select>
+    
+     <!-- 删除表数据  AND table_schema = ${dbName} -->
+     <delete id="delData" parameterType="deleteDateBean"  statementType="STATEMENT">
+		delete from ${tbName} where id=${id} 
+	</delete>
+	
+	
+	
+	 <update id="updateData" parameterType="Map" statementType="STATEMENT">
+		update ${tbName} set  ${updateInfo} where id=${id}
+	</update> 
+	
+  
+</mapper> 

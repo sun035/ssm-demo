@@ -1,0 +1,26 @@
+/*表的样式*/
+
+.leftPic{
+    width:49.5%;
+    height:300px;
+    border:1px solid #ccc;
+    margin-left:0.5%;
+    display:inline-block;
+}
+.rightPic{
+    width:49.5%;
+    height:300px;
+    border:1px solid #ccc;
+    display:inline-block;
+}
+
+/*分页插件的样式*/
+#demo2 li a{
+    padding: 0 !important;;
+}
+#demo2 .prev a{
+    width:60px!important;
+}
+#demo2 .next a{
+    width:60px!important;
+}
