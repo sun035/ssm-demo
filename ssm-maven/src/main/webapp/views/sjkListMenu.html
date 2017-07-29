@@ -85,17 +85,7 @@
 <script>
     $(document).ready(function() {
        
-    	selectDatabases();
-    	function selectDatabases(){
-    		 var datas=main.requireAjax(main.configIp+"/ssm-maven/sql/showdatabases.do","","get");
-             if(datas.code=="0000"){
-            	 alert(datas.data)
-            	 
-             }else if(datas.code=="1000"){
-                 layer.msg(datas.msg);
-             }
-           
-            }
+    	
     	
         getLeft();//获取url；确定加载页面
         function getLeft(){
